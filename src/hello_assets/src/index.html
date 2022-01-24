@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Microblog</title>
+    <base href="/" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+  </head>
+  <body style="background-color:#0f0f0f;">
+    <header style="background-color:lightseagreen;"><h1>MOTOKO<h1></h1></header>
+    <main>
+      <label for="message"><h4 style="color: white;">いまどうしてる？</h4></label>
+      <textarea id="message"></textarea>
+      <label for="otp"><h4 style="color: white;">パスワード</h4></label>
+      <input id="otp"></input>
+      <button style="background-color:#987cb9;color: rgb(255, 255, 255);" id="post">Post</button>
+      &nbsp;<span id="error"></span>
+      <hr style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" color="#987cb9" size="4">
+      <label for="posts"><h4 style="color:#987cb9;">ツィーターリリース</h4></label>
+      <section style="background-color:rgb(240, 226, 205);" id="posts"></section>
+      <hr style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" color="#987cb9" size="4">
+      <label for="follows"><h4 style="color: #987cb9;">フォロー中</h4></label>
+      <section style="background-color:lightseagreen;" id="follows"></section>
+      <hr style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" color="#987cb9" size="4">
+      <label for="timeline"><h4 style="color: #987cb9;">ツイート</h4></label>
+      <section style="background-color:rgb(240, 226, 205);;" id="timeline"></section>
+    </main>
+  </body>
+</html>
